@@ -1,0 +1,11 @@
+.layout-main {
+  background-color: $main_bg;
+  padding: $vspace 0;
+}
+.layout-content {
+  padding: 0 $hspace;
+
+  .region-content {
+    position: relative; // this is for the local tasks.
+  }
+}

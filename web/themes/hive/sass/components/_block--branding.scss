@@ -1,0 +1,24 @@
+.block-system-branding-block {
+  text-align: center;
+  img {
+    width: 100px;
+  }
+  .site-info-wrapper {
+    font-family: $heading_font;
+  }
+
+  @include breakpoint($medium) {
+    text-align: left;
+    img {
+      float: left;
+      margin-right: $hspace;
+    }
+    .site-info-wrapper {
+      padding-top: 28px;
+    }
+    .site-name {
+      font-size: 1.75em;
+      line-height: 1.1em;
+    }
+  }
+}

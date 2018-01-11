@@ -1,0 +1,22 @@
+table {
+	width: 100%;
+}
+
+td, th {
+  padding: $table_cell_padding;
+}
+
+th {
+  background-color: $table_header;
+}
+
+tr {
+	&.even,
+  &:nth-child(even) {
+    background-color: $row_even;
+	}
+	&.odd,
+  &:nth-child(odd) {
+    background-color: $row_odd;
+	}
+}

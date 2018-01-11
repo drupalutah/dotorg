@@ -1,0 +1,31 @@
+.path-frontpage .view-sponsors-platinum {
+  @include container;
+  padding: $vspace $hspace;
+
+  .view-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 0 10px 0;
+    .views-row {
+      flex: 0 0 auto;
+      img {
+        opacity: 0.4;
+        max-height: 80px;
+        width: auto;
+        &:hover {
+          opacity: 1;
+
+        }
+      }
+    }
+  }
+  .view-footer {
+    text-align: center;
+    border-top: dotted 1px $color_gray;
+    font-size: 0.863em;
+  }
+  a {
+    @include linkme($color_secondary);
+  }
+}
