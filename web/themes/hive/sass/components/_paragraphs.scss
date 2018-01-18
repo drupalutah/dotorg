@@ -1,0 +1,21 @@
+.paragraph--type--columns-two {
+  .layout__region--first {
+    padding-right: 10px;
+  }
+  .layout__region--second {
+    padding-left: 10px;
+  }
+}
+
+.paragraph--type--columns-three {
+  .layout__region--first {
+    padding-right: 10px;
+  }
+  .layout__region--second {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .layout__region--third {
+    padding-left: 10px;
+  }
+}
