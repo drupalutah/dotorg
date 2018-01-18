@@ -1,0 +1,90 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.layout-header .container ,
+.layout-content,
+.layout-footer .container  {
+  @include clearfix();
+  @include container;
+}
+
+@include breakpoint($xsmall) {}
+
+@include breakpoint($small) {}
+
+@include breakpoint($medium) {
+  .two-sidebars {
+    .layout-content {
+      @include span(isolate 6 at 4);
+    }
+    .layout-sidebar-first {
+      @include span(3);
+    }
+    .layout-sidebar-second {
+      @include span(last 3);
+    }
+  }
+  .one-sidebar.has-sidebar-first {
+    .layout-content {
+      @include span(last 9);
+    }
+    .layout-sidebar-first {
+      @include span(3);
+    }
+    .layout-sidebar-second {
+      @include span(last 3);
+    }
+  }
+
+  .one-sidebar.has-sidebar-second {
+    .layout-content {
+      @include span(9);
+    }
+    .layout-sidebar-second {
+      @include span(last 3);
+    }
+  }
+
+
+  .region-branding {
+    @include span(6);
+  }
+  .region-navigation {
+    @include span(last 6);
+  }
+  .region-header {
+    @include span(12);
+  }
+
+  .secondary-footer,
+  .primary-footer {
+    @include clearfix();
+    // @include container;
+  }
+  .region-footera {
+    @include span(4);
+  }
+  .region-footerb {
+    @include span(4);
+  }
+  .region-footerc {
+    @include span(last 4);
+  }
+}
+
+@include breakpoint($large) {
+  .region-branding {
+    @include span(5);
+  }
+  .region-navigation {
+    @include span(last 7);
+  }
+}
+
+@include breakpoint($xlarge) {}

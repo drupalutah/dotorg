@@ -1,0 +1,21 @@
+uuid: 68ca89c1-edee-42e0-af82-6a267b52b1a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_second
+    - paragraphs.paragraphs_type.columns_two
+  module:
+    - text
+id: paragraph.columns_two.field_text_second
+field_name: field_text_second
+entity_type: paragraph
+bundle: columns_two
+label: 'Text Second'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

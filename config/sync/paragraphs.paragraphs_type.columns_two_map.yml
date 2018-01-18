@@ -1,0 +1,9 @@
+uuid: c5216a9e-274f-4649-83a7-db90829c62f2
+langcode: en
+status: true
+dependencies: {  }
+id: columns_two_map
+label: 'Columns: Two w/Map'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: e5a6eb48-6b4b-48b7-b4d0-5cebb51adfe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_third
+    - paragraphs.paragraphs_type.columns_three
+  module:
+    - text
+id: paragraph.columns_three.field_text_third
+field_name: field_text_third
+entity_type: paragraph
+bundle: columns_three
+label: 'Text Third'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

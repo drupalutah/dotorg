@@ -1,0 +1,8 @@
+uuid: f1595a9d-4fe0-4914-8718-29eb5ce5f500
+langcode: en
+status: true
+dependencies: {  }
+id: block
+label: Block
+revision: 0
+description: ''

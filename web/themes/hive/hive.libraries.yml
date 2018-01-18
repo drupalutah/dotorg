@@ -1,0 +1,16 @@
+main:
+  version: 1.0
+  css:
+    base:
+      css/style.css: {}
+  js:
+      js/main.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    
+fontawesome:
+  version: 5.0.3
+  css:
+    theme:
+      https://use.fontawesome.com/releases/v5.0.3/css/all.css: {}

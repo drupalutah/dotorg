@@ -1,0 +1,19 @@
+uuid: 62f8a577-95d7-4747-8a2a-72200f4ec54f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline_third
+    - paragraphs.paragraphs_type.columns_three
+id: paragraph.columns_three.field_headline_third
+field_name: field_headline_third
+entity_type: paragraph
+bundle: columns_three
+label: 'Headline Third'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

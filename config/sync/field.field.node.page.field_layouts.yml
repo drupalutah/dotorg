@@ -1,0 +1,35 @@
+uuid: a77b11c4-719b-4b7c-80d7-83568d033df6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_layouts
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_layouts
+field_name: field_layouts
+entity_type: node
+bundle: page
+label: Layouts
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      columns_three:
+        weight: 4
+        enabled: false
+      columns_one:
+        weight: 5
+        enabled: false
+      columns_two:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,124 @@
+body {
+  font-family: $body_font;
+  font-size: $body_fontsize;
+  line-height: $body_lineheight;
+  color: $body_fontcolor;
+}
+
+html, html a, body {
+   -webkit-font-smoothing: antialiased;
+}
+
+a {
+  @include linkme($link, $link_hover, $link_active);
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+strike, s {
+
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+cite {
+    font-style: italic;
+}
+code {
+  font-family: monospace;
+}
+
+del {}
+ins {}
+
+ul, ol {
+  li {}
+}
+
+dl {
+  margin: 1em 0;
+
+  dd {
+    padding-left: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+// @TODO Include Typey https://github.com/jptaranto/typey.
+h1 {
+  color: $title_fontcolor;
+  font-family: $title_font;
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.35em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1.15em;
+}
+
+h2, h3, h4, h5, h6 {
+  color: $heading_fontcolor;
+  font-family: $heading_font;
+  line-height: 1em;
+  padding-bottom: 0.5em;
+  font-weight: 400;
+}
+
+
+.element-invisible,
+.visually-hidden {
+      position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    word-wrap: normal;
+}
+
+.pager__items {
+    clear: both;
+    text-align: center;
+}
+.pager__item.is-active {
+    font-weight: bold;
+}
+.pager__item {
+    display: inline;
+    padding: 0.5em;
+}

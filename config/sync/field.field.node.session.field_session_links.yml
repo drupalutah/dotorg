@@ -1,0 +1,23 @@
+uuid: d5c7e45b-4983-45cb-9557-56fe267ea9e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_links
+    - node.type.session
+  module:
+    - link
+id: node.session.field_session_links
+field_name: field_session_links
+entity_type: node
+bundle: session
+label: 'Session Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,19 @@
+uuid: 61c1b1d0-bbe3-4029-9b62-1135dc29fe80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline_second
+    - paragraphs.paragraphs_type.columns_two
+id: paragraph.columns_two.field_headline_second
+field_name: field_headline_second
+entity_type: paragraph
+bundle: columns_two
+label: 'Headline Second'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

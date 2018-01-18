@@ -1,0 +1,19 @@
+uuid: b6daaf01-c5d0-48fa-bf1b-fa7ffcd3499f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline_first
+    - paragraphs.paragraphs_type.columns_two_map
+id: paragraph.columns_two_map.field_headline_first
+field_name: field_headline_first
+entity_type: paragraph
+bundle: columns_two_map
+label: 'Headline First'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
