@@ -1,0 +1,72 @@
+uuid: f378997b-2058-4f02-876d-fface2be8391
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns_two_map.field_headline_first
+    - field.field.paragraph.columns_two_map.field_headline_second
+    - field.field.paragraph.columns_two_map.field_map_first
+    - field.field.paragraph.columns_two_map.field_map_second
+    - field.field.paragraph.columns_two_map.field_text_first
+    - field.field.paragraph.columns_two_map.field_text_second
+    - paragraphs.paragraphs_type.columns_two_map
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_twocol
+    settings: {  }
+id: paragraph.columns_two_map.default
+targetEntityType: paragraph
+bundle: columns_two_map
+mode: default
+content:
+  field_headline_first:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: first
+  field_headline_second:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: second
+  field_map_first:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: first
+  field_map_second:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: second
+  field_text_first:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: first
+  field_text_second:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: second
+hidden: {  }

@@ -1,0 +1,20 @@
+uuid: ef5cbf09-03c8-4b90-bc3f-420ccd07894f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hive
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: hive_page_title
+theme: hive
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

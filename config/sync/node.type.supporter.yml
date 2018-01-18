@@ -1,0 +1,17 @@
+uuid: bf13882a-3c59-4534-91d2-7b508d52b6f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Supporter
+type: supporter
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

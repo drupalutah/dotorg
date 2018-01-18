@@ -1,0 +1,22 @@
+uuid: 133fef2d-790f-4edc-93ff-1116e415c0e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hive
+_core:
+  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
+id: hive_messages
+theme: hive
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

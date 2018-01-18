@@ -1,0 +1,30 @@
+uuid: bdf4f9e2-bb6b-4bdc-bcdb-ab27fd0c5a1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors_platinum
+  module:
+    - system
+    - views
+  theme:
+    - hive
+id: views_block__sponsors_platinum_block_1
+theme: hive
+region: sponsors_title
+weight: 0
+provider: null
+plugin: 'views_block:sponsors_platinum-block_1'
+settings:
+  id: 'views_block:sponsors_platinum-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

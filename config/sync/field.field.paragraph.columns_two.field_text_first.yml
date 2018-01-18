@@ -1,0 +1,21 @@
+uuid: a8ded412-4a98-4a64-8035-dd020e0623a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_first
+    - paragraphs.paragraphs_type.columns_two
+  module:
+    - text
+id: paragraph.columns_two.field_text_first
+field_name: field_text_first
+entity_type: paragraph
+bundle: columns_two
+label: 'Text First'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

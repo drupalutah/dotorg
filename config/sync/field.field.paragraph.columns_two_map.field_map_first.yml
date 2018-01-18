@@ -1,0 +1,19 @@
+uuid: c1c3fa83-5a27-4ee4-bb71-6fd53f41f724
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_map_first
+    - paragraphs.paragraphs_type.columns_two_map
+id: paragraph.columns_two_map.field_map_first
+field_name: field_map_first
+entity_type: paragraph
+bundle: columns_two_map
+label: 'Map First'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

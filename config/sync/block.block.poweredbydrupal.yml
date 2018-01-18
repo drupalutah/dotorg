@@ -1,0 +1,20 @@
+uuid: 17fefd1e-be96-4c0a-ac52-f52916c56db6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hive
+id: poweredbydrupal
+theme: hive
+region: footera
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: b9c31bf8-5ecc-4a5b-ac68-0038f72d4b87
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hive
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: hive_local_actions
+theme: hive
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
