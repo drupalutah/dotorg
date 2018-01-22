@@ -1,0 +1,7 @@
+uuid: d6e4f79d-5472-47b2-b92e-2b25392705b8
+langcode: en
+status: true
+dependencies: {  }
+formId: webform_submission_contact_add_form
+captchaType: recaptcha/reCAPTCHA
+label: webform-submission-contact-add-form
