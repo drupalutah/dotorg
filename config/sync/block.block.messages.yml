@@ -1,0 +1,20 @@
+uuid: 99109b30-8b67-4537-bf8a-643b3f0efa62
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hive
+id: messages
+theme: hive
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

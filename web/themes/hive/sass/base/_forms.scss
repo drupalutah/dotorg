@@ -53,9 +53,21 @@ input[type="search"] {
     border-radius: 0;
 }
 
-.form-text, .form-textarea {
-	border: 1px solid $border_color;
+.form-text,
+.form-textarea,
+.form-email,
+.form-tel,
+.form-url,
+.form-number,
+.form-date {
 	padding: 4px;
+	border: solid 1px $form_input_border_color;
+	color: $form_input_color;
+	background-color: $form_input_bg_color;
+	&:focus {
+		border-color: $color_primary;
+		outline: none;
+	}
 }
 
 button,
