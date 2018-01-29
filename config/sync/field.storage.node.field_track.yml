@@ -1,0 +1,42 @@
+uuid: 7cbab2b2-e284-4d95-9633-e3943583368f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_track
+field_name: field_track
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: sitebuild
+      label: 'Site Building, Using Drupal, General'
+    -
+      value: frontend
+      label: 'Front End: Themes, Design, UX, UI, etc'
+    -
+      value: backend
+      label: 'Back End: Coding, Development, PHP'
+    -
+      value: devops
+      label: 'DevOps: Performance, Administration, etc...'
+    -
+      value: business
+      label: 'Business, Marketing, and Community'
+    -
+      value: human
+      label: 'Being human'
+    -
+      value: other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

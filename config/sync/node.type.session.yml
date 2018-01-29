@@ -11,7 +11,7 @@ third_party_settings:
 name: Session
 type: session
 description: ''
-help: ''
+help: 'Create a session proposal that will be reviewed and potentially selected for this upcoming camp. After you create this proposal you are welcome to come back and edit it, so if you don''t have all the details but want to submit something for now you can.'
 new_revision: true
 preview_mode: 0
 display_submitted: false
