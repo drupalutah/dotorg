@@ -1,4 +1,4 @@
-uuid: 99109b30-8b67-4537-bf8a-643b3f0efa62
+uuid: a1c1bcfc-e607-48fd-8bfa-13294731e43a
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - system
   theme:
     - hive
-id: messages
+id: mainpagecontent
 theme: hive
 region: content
-weight: -6
+weight: -2
 provider: null
-plugin: system_messages_block
+plugin: system_main_block
 settings:
-  id: system_messages_block
-  label: Messages
+  id: system_main_block
+  label: 'Main page content'
   provider: system
   label_display: '0'
 visibility: {  }

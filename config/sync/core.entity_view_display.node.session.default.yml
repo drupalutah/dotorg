@@ -5,13 +5,16 @@ dependencies:
   config:
     - field.field.node.session.body
     - field.field.node.session.field_attachements
+    - field.field.node.session.field_experience_level
     - field.field.node.session.field_session_links
+    - field.field.node.session.field_track
     - node.type.session
   module:
     - field_layout
     - file
     - layout_discovery
     - link
+    - options
     - text
     - user
 third_party_settings:
@@ -37,6 +40,13 @@ content:
     third_party_settings: {  }
     type: file_default
     region: content
+  field_experience_level:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
   field_session_links:
     weight: 2
     label: above
@@ -48,6 +58,13 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
+  field_track:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   links:
     weight: 3

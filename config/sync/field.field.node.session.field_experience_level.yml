@@ -1,0 +1,21 @@
+uuid: 73709a2f-c655-40c0-b73d-a685e8356ca7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_experience_level
+    - node.type.session
+  module:
+    - options
+id: node.session.field_experience_level
+field_name: field_experience_level
+entity_type: node
+bundle: session
+label: 'Experience level'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
