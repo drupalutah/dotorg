@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.session.field_experience_level
     - field.field.node.session.field_session_links
     - field.field.node.session.field_track
+    - field.field.node.session.field_versions
     - node.type.session
   module:
     - field_layout
@@ -61,6 +62,13 @@ content:
     region: content
   field_track:
     weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_versions:
+    weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }

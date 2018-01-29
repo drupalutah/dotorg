@@ -1,0 +1,21 @@
+uuid: 181b87ff-a191-4917-85c6-4ac0d56b9dfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_versions
+    - node.type.session
+  module:
+    - options
+id: node.session.field_versions
+field_name: field_versions
+entity_type: node
+bundle: session
+label: Versions
+description: 'Select the version(s) of Drupal this session relates to, or select N/A if it is not version specific.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

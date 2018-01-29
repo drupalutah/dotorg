@@ -11,7 +11,7 @@ id: node.session.field_attachements
 field_name: field_attachements
 entity_type: node
 bundle: session
-label: Attachements
+label: Attachments
 description: ''
 required: false
 translatable: false
