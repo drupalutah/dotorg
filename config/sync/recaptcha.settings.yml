@@ -3,7 +3,7 @@ secret_key: 6LdfakEUAAAAAFArn_EkVsfFaeAgxlsyG0HFkTn
 widget:
   theme: light
   type: image
-  size: compact
+  size: ''
   tabindex: 0
   noscript: true
 _core:

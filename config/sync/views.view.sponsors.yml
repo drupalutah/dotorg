@@ -350,6 +350,7 @@ display:
         filters: false
         filter_groups: false
         title: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
@@ -359,6 +360,7 @@ display:
       displays:
         block_1: block_1
       title: 'Gold Sponsors'
+      css_class: sponsors-gold
     cache_metadata:
       max-age: -1
       contexts:
@@ -439,6 +441,7 @@ display:
         filters: false
         filter_groups: false
         title: false
+        css_class: false
       filter_groups:
         operator: AND
         groups:
@@ -448,6 +451,7 @@ display:
       displays:
         block_1: block_1
       title: 'Silver Sponsors'
+      css_class: sponsors-silver
     cache_metadata:
       max-age: -1
       contexts:
