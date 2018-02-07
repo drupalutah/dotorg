@@ -1,7 +1,16 @@
 .layout-secondary {
   padding: ($vspace * 2) $hspace;
+  background-color: #eee;
 
-  .container {
+  @include breakpoint($medium) {
+  .region {
     @include container;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .block {
+      flex: 1 1 50%;
+    }
   }
+}
 }

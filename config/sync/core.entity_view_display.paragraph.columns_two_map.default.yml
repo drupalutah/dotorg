@@ -13,6 +13,7 @@ dependencies:
   module:
     - field_layout
     - layout_discovery
+    - simple_gmap
     - text
 third_party_settings:
   field_layout:
@@ -43,17 +44,39 @@ content:
     weight: 1
     label: hidden
     settings:
-      link_to_entity: false
+      include_map: true
+      apikey: ''
+      iframe_width: 100%
+      iframe_height: '450'
+      static_scale: 1
+      include_link: true
+      link_text: 'View larger map'
+      zoom_level: 14
+      map_type: m
+      langcode: en
+      include_static_map: false
+      include_text: false
     third_party_settings: {  }
-    type: string
+    type: simple_gmap
     region: first
   field_map_second:
     weight: 4
     label: hidden
     settings:
-      link_to_entity: false
+      include_map: true
+      apikey: ''
+      iframe_width: 100%
+      iframe_height: '450'
+      static_scale: 1
+      include_link: true
+      link_text: 'View larger map'
+      zoom_level: 14
+      map_type: m
+      langcode: en
+      include_static_map: false
+      include_text: false
     third_party_settings: {  }
-    type: string
+    type: simple_gmap
     region: second
   field_text_first:
     weight: 2

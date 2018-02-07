@@ -3,5 +3,5 @@ langcode: en
 status: true
 dependencies: {  }
 formId: webform_submission_contact_add_form
-captchaType: recaptcha/reCAPTCHA
+captchaType: default
 label: webform-submission-contact-add-form

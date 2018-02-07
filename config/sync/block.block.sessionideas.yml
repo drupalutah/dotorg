@@ -1,0 +1,31 @@
+uuid: 642d0c6d-696f-4bf1-8e5c-95bf86189098
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block:9491713b-7dff-4200-bf57-0edce4d1129a'
+  module:
+    - block_content
+    - system
+  theme:
+    - hive
+id: sessionideas
+theme: hive
+region: secondary
+weight: 0
+provider: null
+plugin: 'block_content:9491713b-7dff-4200-bf57-0edce4d1129a'
+settings:
+  id: 'block_content:9491713b-7dff-4200-bf57-0edce4d1129a'
+  label: 'Need a Session Idea?'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/sessions*'
+    negate: false
+    context_mapping: {  }
