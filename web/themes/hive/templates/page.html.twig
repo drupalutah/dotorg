@@ -111,11 +111,17 @@
 
   </main>
 
-{% if page.sponsors is defined and page.sponsors|render|striptags|trim  %}
-  <div class="layout-sponsors">
-    {{ page.sponsors }}
-  </div>
-{% endif %}
+  {% if page.secondary is defined and page.secondary|render|striptags|trim  %}
+    <div class="layout-secondary">
+      {{ page.secondary }}
+    </div>
+  {% endif %}
+
+  {% if page.sponsors is defined and page.sponsors|render|striptags|trim  %}
+    <div class="layout-sponsors">
+      {{ page.sponsors }}
+    </div>
+  {% endif %}
 
 {% if page.footer or page.footera or page.footerb or page.footerc %}
 <footer role="contentinfo" class="layout-footer">
