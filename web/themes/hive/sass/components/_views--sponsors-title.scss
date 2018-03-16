@@ -1,4 +1,4 @@
-.path-frontpage .view-sponsors-platinum {
+.view-sponsors-platinum {
   @include container;
   padding: $vspace $hspace;
 
@@ -10,11 +10,11 @@
     .views-row {
       flex: 0 0 auto;
       img {
-        opacity: 0.4;
+        // opacity: 0.4;
         max-height: 80px;
         width: auto;
         &:hover {
-          opacity: 1;
+          // opacity: 1;
 
         }
       }
