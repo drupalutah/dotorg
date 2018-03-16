@@ -471,7 +471,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: '<a href="/user/login?destination=/node/add/session" alt="Submit a session">Submit a Session</a>'
+            value: '<a href="/user/login?destination=/node/add/session" alt="Submit a session" class="button">Submit a Session</a>'
             format: html
           plugin_id: text
       footer: {  }
