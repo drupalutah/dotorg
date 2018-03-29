@@ -36,6 +36,7 @@
         "drupal/r4032login": "1.x-dev",
         "drupal/recaptcha": "^2.2",
         "drupal/redirect": "^1.0",
+        "drupal/schema_metatag": "^1.2",
         "drupal/simple_gmap": "^1.4",
         "drupal/smtp": "^1.0@beta",
         "drupal/superfish": "^1.1",
