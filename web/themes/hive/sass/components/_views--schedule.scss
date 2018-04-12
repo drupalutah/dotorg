@@ -1,0 +1,29 @@
+.view-schedule {
+  .views-row {
+    width: 31.333%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    float: left;
+    background-color: #efefef;
+    padding: 15px;
+    border-left: 4px solid;
+  }
+  .views-field-title {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+  }
+  h3 {
+    clear: both;
+    border-bottom: dotted 1px;
+  }
+  .room-A {
+    border-color: $color-primary-0;
+  }
+  .room-B {
+    border-color: $color-primary-1;
+  }
+  .room-C {
+    border-color: $color-primary-2;
+  }
+}
