@@ -893,10 +893,7 @@ ul.sf-menu ul {
 }
 
 .view-schedule .views-row {
-  width: 31.333%;
-  margin-right: 2%;
   margin-bottom: 20px;
-  float: left;
   background-color: #efefef;
   padding: 15px;
   border-left: 4px solid;
@@ -923,6 +920,14 @@ ul.sf-menu ul {
 
 .view-schedule .room-C {
   border-color: #E4B67E;
+}
+
+@media (min-width: 768px) {
+  .view-schedule .views-row {
+    width: 31.333%;
+    margin-right: 2%;
+    float: left;
+  }
 }
 
 .view-sessions .view-header a {
