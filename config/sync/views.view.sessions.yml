@@ -8,7 +8,6 @@ dependencies:
     - field.storage.node.field_track
     - field.storage.node.field_versions
     - node.type.session
-    - system.menu.main
   module:
     - node
     - options
@@ -495,7 +494,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -516,7 +515,7 @@ display:
       display_extenders: {  }
       path: sessions
       menu:
-        type: normal
+        type: none
         title: Sessions
         description: ''
         expanded: false
@@ -525,7 +524,7 @@ display:
         context: '0'
         menu_name: main
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

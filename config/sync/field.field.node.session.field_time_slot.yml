@@ -1,0 +1,29 @@
+uuid: 5232a40b-fcfa-4472-8efb-f8d6ed149ebd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_slot
+    - node.type.session
+    - taxonomy.vocabulary.times
+id: node.session.field_time_slot
+field_name: field_time_slot
+entity_type: node
+bundle: session
+label: 'Time Slot'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      times: times
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
