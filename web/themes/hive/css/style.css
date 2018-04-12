@@ -892,6 +892,39 @@ ul.sf-menu ul {
   font-size: 0.863em;
 }
 
+.view-schedule .views-row {
+  width: 31.333%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  float: left;
+  background-color: #efefef;
+  padding: 15px;
+  border-left: 4px solid;
+}
+
+.view-schedule .views-field-title {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+
+.view-schedule h3 {
+  clear: both;
+  border-bottom: dotted 1px;
+}
+
+.view-schedule .room-A {
+  border-color: #BA8748;
+}
+
+.view-schedule .room-B {
+  border-color: #FFDEB6;
+}
+
+.view-schedule .room-C {
+  border-color: #E4B67E;
+}
+
 .view-sessions .view-header a {
   color: #fff !important;
   text-align: center;
