@@ -1,9 +1,6 @@
 .view-schedule {
   .views-row {
-    width: 31.333%;
-    margin-right: 2%;
     margin-bottom: 20px;
-    float: left;
     background-color: #efefef;
     padding: 15px;
     border-left: 4px solid;
@@ -25,5 +22,12 @@
   }
   .room-C {
     border-color: $color-primary-2;
+  }
+  @include breakpoint($medium) {
+    .views-row {
+      width: 31.333%;
+      margin-right: 2%;
+      float: left;
+    }
   }
 }
