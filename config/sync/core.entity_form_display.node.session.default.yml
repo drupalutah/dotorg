@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.session.body
     - field.field.node.session.field_attachements
     - field.field.node.session.field_experience_level
+    - field.field.node.session.field_presenters
     - field.field.node.session.field_session_links
     - field.field.node.session.field_session_room
     - field.field.node.session.field_time_slot
@@ -56,6 +57,14 @@ content:
     third_party_settings: {  }
     type: options_buttons
     region: content
+  field_presenters:
+    weight: 13
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_session_links:
     weight: 12
     settings:
@@ -65,7 +74,7 @@ content:
     type: link_default
     region: content
   field_session_room:
-    weight: 26
+    weight: 14
     settings:
       match_operator: CONTAINS
       size: 60
@@ -74,7 +83,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_time_slot:
-    weight: 27
+    weight: 15
     settings:
       match_operator: CONTAINS
       size: 60
