@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.session.body
     - field.field.node.session.field_attachements
     - field.field.node.session.field_experience_level
+    - field.field.node.session.field_presenters
     - field.field.node.session.field_session_links
     - field.field.node.session.field_session_room
     - field.field.node.session.field_time_slot
@@ -45,11 +46,19 @@ content:
     type: file_default
     region: content
   field_experience_level:
-    weight: 4
+    weight: 5
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_presenters:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_session_links:
     weight: 2
@@ -64,14 +73,6 @@ content:
     type: link
     region: content
   field_session_room:
-    weight: 7
-    label: inline
-    settings:
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_time_slot:
     weight: 8
     label: inline
     settings:
@@ -79,22 +80,30 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
+  field_time_slot:
+    weight: 9
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   field_track:
-    weight: 3
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_versions:
-    weight: 5
+    weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   links:
-    weight: 6
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }

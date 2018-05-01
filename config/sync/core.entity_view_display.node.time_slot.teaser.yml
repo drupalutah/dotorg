@@ -31,4 +31,6 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_session_room: true
+  field_time_slot: true
