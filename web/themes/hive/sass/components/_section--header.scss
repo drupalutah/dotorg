@@ -3,6 +3,9 @@
   background-color: $header_bg;
   position: relative;
   border-bottom: solid 5px $header_fontcolor;
+  background: url('../images/spooky2.jpg') center top no-repeat;
+  background-size: cover;
+
   .container {
       padding: $vspace $hspace;
       position: relative;
@@ -12,7 +15,7 @@
 }
 .path-frontpage {
   .layout-header {
-    height: 100%;
+    min-height: 350px;
   }
   .region-sponsors-title {
     position: absolute;

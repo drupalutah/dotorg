@@ -7,6 +7,9 @@ ul.sf-menu {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 8px;
+    margin: 0 5px;
 
     &:link,
     &:visited {
@@ -48,7 +51,7 @@ ul.sf-menu {
   }
 
   ul {
-    background-color: $menu_bg_hover;
+    background-color: #333;// $menu_bg_hover;
   }
 }
 

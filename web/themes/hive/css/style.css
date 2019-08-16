@@ -533,6 +533,9 @@ ul.sf-menu li a {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin: 0 5px;
 }
 
 ul.sf-menu li a:link, ul.sf-menu li a:visited {
@@ -564,7 +567,7 @@ ul.sf-menu li.active-trail > a:link, ul.sf-menu li.active-trail > a:visited {
 }
 
 ul.sf-menu ul {
-  background-color: #19445D;
+  background-color: #333;
 }
 
 .sf-accordion-toggle {
@@ -717,6 +720,8 @@ ul.sf-menu ul {
   background-color: #000;
   position: relative;
   border-bottom: solid 5px #BA8748;
+  background: url("../images/spooky2.jpg") center top no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -727,7 +732,7 @@ ul.sf-menu ul {
 }
 
 .path-frontpage .layout-header {
-  height: 100%;
+  min-height: 350px;
 }
 
 .path-frontpage .region-sponsors-title {
